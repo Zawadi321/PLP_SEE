@@ -1,3 +1,4 @@
+#Dictionaries in python are also classifird as hash tables
 person= {
     "name":"Dedan", #name is an index storing the value "Dedan"
     "age": 17,  #age is an index storing the value 17
@@ -13,6 +14,7 @@ print(person)
 del person["age"] #deletes the key "age" and its value
 print(person)
 
+#hash maps/hash tables
 class HashMap:
     def __init__(self,size):
         self.size = size #size of the hash table
