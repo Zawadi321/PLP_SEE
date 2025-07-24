@@ -4,6 +4,10 @@ person= {
     "age": 17,  #age is an index storing the value 17
     "email":"dedan@gmail.com"}
 
+#iterating the values in a dictionary(each key and value appears in a seperate line)
+for key, value in person.items():
+    print(f"{key}: {value}")  
+
 #access
 print(person["email"]) #prints the key "email" value
 #add or update
